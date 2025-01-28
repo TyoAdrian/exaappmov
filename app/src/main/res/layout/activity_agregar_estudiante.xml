@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Estudiante" />
+
+    <EditText
+        android:id="@+id/edtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota Primer Parcial"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota Segundo Parcial"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtPromedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Promedio"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/btnGuardarEstudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Estudiante" />
+</LinearLayout>

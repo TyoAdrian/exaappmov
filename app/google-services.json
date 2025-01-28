@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598671976265",
+    "project_id": "examenappmovi",
+    "storage_bucket": "examenappmovi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598671976265:android:552087752f48b61dc5dc98",
+        "android_client_info": {
+          "package_name": "com.ec.examen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM4eJ_Gs2GVkemYfMY9uXF_JEfhUNEwsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
